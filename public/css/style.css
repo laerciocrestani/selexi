@@ -1317,7 +1317,7 @@ html { font-size: 88%; }
 
 @media all and (max-width: 768px) { html { font-size: 81.25%; } }
 
-body { font-size: 1rem; line-height: 1.65714286em; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "Quicksand", sans-serif; color: #3c4043; }
+body { font-size: 1rem; line-height: 1.3rem; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "Quicksand", sans-serif; color: #3c4043; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: inherit; color: #1e2022; margin: 0; letter-spacing: 0.5px; }
 
@@ -1327,7 +1327,13 @@ h1, .h1 { font-size: 3.14285714em; line-height: 1.31818182em; }
 
 h1:not(:last-child), .h1:not(:last-child) { margin-bottom: 20px; }
 
-h2, .h2 { font-size: 2.35714286em; line-height: 1.36363636em; font-weight: 500; }
+h2, .h2 { 
+
+  font-size: 40px !important;
+  font-weight: 800;
+  line-height: 1.1;
+
+}
 
 h2:not(:last-child), .h2:not(:last-child) { margin-bottom: 16px; }
 
@@ -1349,14 +1355,19 @@ h6:not(:last-child), .h6:not(:last-child) { margin-bottom: 6px; }
 
 .lead { font-weight: 400; }
 
+
+
+
+
+
 @media all and (max-width: 767px) { h1, .h1 { font-size: 2.35714286em; line-height: 1.36363636em; }
   h2, .h2 { font-size: 1.78571429em; line-height: 1.5em; }
   h3, .h3 { font-size: 1.35714286em; line-height: 1.85714286em; }
-  .lead { font-size: 1.35714286em; line-height: 1.68421053em; } }
+  .lead { font-size: 1.35714286em; line-height: 1.3rem; } }
 
 .display-4 { font-weight: 400; }
 
-p { font-size: 1rem; font-style: normal; font-weight: 400; text-transform: none; line-height: 1.7; letter-spacing: 0; color: #3c4043; font-family: "Quicksand", sans-serif; }
+p { font-size: 1rem; font-style: normal; font-weight: 400; text-transform: none; line-height: 1.3rem; letter-spacing: 0; color: #3c4043; font-family: "Quicksand", sans-serif; }
 
 ul.bullets { list-style: inside; }
 
@@ -3026,11 +3037,35 @@ Helpers
 
 .shadow-inside-bottom { box-shadow: inset 0 -1px 2px rgba(0, 0, 0, 0.08); }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .text-xs, .text-xs span { font-size: 30px; line-height: 30px; }
 
 .text-medium-light { font-size: 50px !important; font-weight: 100; line-height: 1.1; }
 
-.text-medium { font-size: 50px !important; font-weight: 800; line-height: 1.1; margin-bottom: 20px; }
+.text-medium { font-size: 40px !important; font-weight: 800; line-height: 1.1; margin-bottom: 20px; }
 
 .text-md, .text-md span, .text-md span span { font-size: 74px !important; line-height: 86px !important; }
 
@@ -3592,7 +3627,7 @@ Helpers
 
 .space { width: 100%; display: block; clear: both; height: 60px; position: relative; }
 
-@media (max-width: 767.98px) { .text-md, .text-md span, .text-md span span { font-size: 46px !important; line-height: 58px !important; } }
+@media (max-width: 767.98px) { .text-md, .text-md span, .text-md span span { font-size: 40px !important; line-height: 58px !important; } }
 
 @media (max-width: 575.98px) { .text-md, .text-md span, .text-md span span { font-size: 32px !important; line-height: 40px !important; } }
 
@@ -4025,7 +4060,7 @@ ul.avatars > li:not(:last-child) { margin-right: -0.25rem; }
 -------------------------------------------------------------------------*/
 a:not([href]):not([tabindex]):not(.btn) { color: none; }
 
-button.btn, .btn:not(.close):not(.mfp-close), a.btn:not([href]):not([tabindex]) { display: inline-block; font-family: inherit; border-radius: 0.42rem 0.42rem 0.42rem 0.42rem; font-size: 12px; font-weight: 600; letter-spacing: .5px; text-decoration: none; outline: none; padding: 12px 18px; position: relative; text-transform: uppercase; background-color: #00589D; border-color: #00589D; border-width: 1px; border-style: solid; color: #fff; -webkit-transition: all 0.3s; transition: all 0.3s; margin-bottom: 6px; outline: none; line-height: 14px; cursor: pointer; }
+button.btn, .btn:not(.close):not(.mfp-close), a.btn:not([href]):not([tabindex]) { display: inline-block; font-family: inherit; border-radius: 0.42rem 0.42rem 0.42rem 0.42rem; font-size: 14px; font-weight: 600; letter-spacing: .5px; text-decoration: none; outline: none; padding: 12px 18px; position: relative; background-color: #00589D; border-color: #00589D; border-width: 1px; border-style: solid; color: #fff; -webkit-transition: all 0.3s; transition: all 0.3s; margin-bottom: 6px; outline: none; line-height: 14px; cursor: pointer; }
 
 button.btn:after, .btn:not(.close):not(.mfp-close):after, a.btn:not([href]):not([tabindex]):after { content: ''; position: absolute; z-index: -1; -webkit-transition: all 0.3s; transition: all 0.3s; }
 
@@ -4049,7 +4084,14 @@ button.btn.btn-block, .btn:not(.close):not(.mfp-close).btn-block, a.btn:not([hre
 
 button.btn.btn-white, button.btn.btn-light, .btn:not(.close):not(.mfp-close).btn-white, .btn:not(.close):not(.mfp-close).btn-light, a.btn:not([href]):not([tabindex]).btn-white, a.btn:not([href]):not([tabindex]).btn-light { background-color: #fff; border-color: #e4e6ef; color: #4c5667; }
 
-button.btn.btn-white:hover, button.btn.btn-white:focus, button.btn.btn-white:active, button.btn.btn-white.active, button.btn.btn-light:hover, button.btn.btn-light:focus, button.btn.btn-light:active, button.btn.btn-light.active, .btn:not(.close):not(.mfp-close).btn-white:hover, .btn:not(.close):not(.mfp-close).btn-white:focus, .btn:not(.close):not(.mfp-close).btn-white:active, .btn:not(.close):not(.mfp-close).btn-white.active, .btn:not(.close):not(.mfp-close).btn-light:hover, .btn:not(.close):not(.mfp-close).btn-light:focus, .btn:not(.close):not(.mfp-close).btn-light:active, .btn:not(.close):not(.mfp-close).btn-light.active, a.btn:not([href]):not([tabindex]).btn-white:hover, a.btn:not([href]):not([tabindex]).btn-white:focus, a.btn:not([href]):not([tabindex]).btn-white:active, a.btn:not([href]):not([tabindex]).btn-white.active, a.btn:not([href]):not([tabindex]).btn-light:hover, a.btn:not([href]):not([tabindex]).btn-light:focus, a.btn:not([href]):not([tabindex]).btn-light:active, a.btn:not([href]):not([tabindex]).btn-light.active { border-color: #e4e6ef; background-color: #f4f5f8; color: #4c5667; }
+button.btn.btn-white:hover, button.btn.btn-white:focus, button.btn.btn-white:active, button.btn.btn-white.active, button.btn.btn-light:hover, button.btn.btn-light:focus, button.btn.btn-light:active, button.btn.btn-light.active, .btn:not(.close):not(.mfp-close).btn-white:hover, .btn:not(.close):not(.mfp-close).btn-white:focus, .btn:not(.close):not(.mfp-close).btn-white:active, .btn:not(.close):not(.mfp-close).btn-white.active, .btn:not(.close):not(.mfp-close).btn-light:hover, .btn:not(.close):not(.mfp-close).btn-light:focus, .btn:not(.close):not(.mfp-close).btn-light:active, .btn:not(.close):not(.mfp-close).btn-light.active, a.btn:not([href]):not([tabindex]).btn-white:hover, a.btn:not([href]):not([tabindex]).btn-white:focus, a.btn:not([href]):not([tabindex]).btn-white:active, a.btn:not([href]):not([tabindex]).btn-white.active, a.btn:not([href]):not([tabindex]).btn-light:hover, a.btn:not([href]):not([tabindex]).btn-light:focus, a.btn:not([href]):not([tabindex]).btn-light:active, a.btn:not([href]):not([tabindex]).btn-light.active { border-color: #8DC63F; background-color: #8DC63F; color: #4c5667; }
+
+.btn-success-green{
+  background-color: #8DC63F !important; border-color: #8DC63F !important; color: #fff;
+}
+.btn-success-green:hover{
+  background-color: #00589D !important; border-color: #00589D !important;
+}
 
 button.btn.btn-white.btn-outline, button.btn.btn-light.btn-outline, .btn:not(.close):not(.mfp-close).btn-white.btn-outline, .btn:not(.close):not(.mfp-close).btn-light.btn-outline, a.btn:not([href]):not([tabindex]).btn-white.btn-outline, a.btn:not([href]):not([tabindex]).btn-light.btn-outline { border-color: #ffffff; background-color: transparent; color: #ffffff; }
 
@@ -4073,7 +4115,7 @@ button.btn.btn-secondary:hover, button.btn.btn-secondary:focus, button.btn.btn-s
 
 button.btn.btn-success, .btn:not(.close):not(.mfp-close).btn-success, a.btn:not([href]):not([tabindex]).btn-success {  background-color: #B7D58D; border-color: #B7D58D; }
 
-button.btn.btn-success:hover, button.btn.btn-success:focus, button.btn.btn-success:not(:disabled):not(.disabled):active, button.btn.btn-success:not(:disabled):not(.disabled).active, .btn:not(.close):not(.mfp-close).btn-success:hover, .btn:not(.close):not(.mfp-close).btn-success:focus, .btn:not(.close):not(.mfp-close).btn-success:not(:disabled):not(.disabled):active, .btn:not(.close):not(.mfp-close).btn-success:not(:disabled):not(.disabled).active, a.btn:not([href]):not([tabindex]).btn-success:hover, a.btn:not([href]):not([tabindex]).btn-success:focus, a.btn:not([href]):not([tabindex]).btn-success:not(:disabled):not(.disabled):active, a.btn:not([href]):not([tabindex]).btn-success:not(:disabled):not(.disabled).active { background-color: #1e7e34; border-color: #1e7e34; color: #fff; }
+button.btn.btn-success:hover, button.btn.btn-success:focus, button.btn.btn-success:not(:disabled):not(.disabled):active, button.btn.btn-success:not(:disabled):not(.disabled).active, .btn:not(.close):not(.mfp-close).btn-success:hover, .btn:not(.close):not(.mfp-close).btn-success:focus, .btn:not(.close):not(.mfp-close).btn-success:not(:disabled):not(.disabled):active, .btn:not(.close):not(.mfp-close).btn-success:not(:disabled):not(.disabled).active, a.btn:not([href]):not([tabindex]).btn-success:hover, a.btn:not([href]):not([tabindex]).btn-success:focus, a.btn:not([href]):not([tabindex]).btn-success:not(:disabled):not(.disabled):active, a.btn:not([href]):not([tabindex]).btn-success:not(:disabled):not(.disabled).active { background-color: #8DC63F; border-color: #8DC63F; color: #fff; }
 
 button.btn.btn-info, .btn:not(.close):not(.mfp-close).btn-info, a.btn:not([href]):not([tabindex]).btn-info { background-color: #17a2b8; border-color: #17a2b8; }
 
@@ -4367,7 +4409,11 @@ a.btn:not([href]):not([tabindex]).btn-icon-holder.btn-lg i {
 
 .heading-text.heading-gradient h2 > * { -webkit-text-fill-color: transparent !important; -webkit-background-clip: text !important; background: -webkit-radial-gradient(left top, circle, #4b72ff 9%, #00589D 48%, #6442ff 91%); background: radial-gradient(circle at left top, #4b72ff 9%, #00589D 48%, #6442ff 91%); }
 
-.heading-text.heading-section h2 { position: relative; font-size: 48px; line-height: 56px; margin-bottom: 60px; color: #8DC63F }
+.heading-text.heading-section h2 { position: relative; font-size: 46px; margin-bottom: 20px; color: #8DC63F;
+  font-size: 40px !important;
+  font-weight: 800;
+  line-height: 1.1;
+}
 
 
 .heading-text.heading-section.text-center h1:before, .heading-text.heading-section.text-center h2:before, .heading-text.heading-section.text-center h3:before, .heading-text.heading-section.text-center h4:before, .heading-text.heading-section.text-center h5:before, .heading-text.heading-section.text-center h6:before { margin: 0 auto; }
@@ -6803,7 +6849,10 @@ color: #00589D
 }
 
 .a-chi-ci-rivolgiamo .heading-text.heading-section h2, .heading-text.heading-section h4{
-  color: #00589D
+  color: #00589D;
+  font-size: 40px !important;
+  font-weight: 800;
+  line-height: 1.1;
 }
 .a-chi-ci-rivolgiamo .icon-box .icon i{
   color: #8DC63F;
@@ -6824,11 +6873,27 @@ color: #00589D
   border-radius: 20px;
 }
 
-.seperator-blue {
+.seperator-blue,
+.separator-green {
   height: 10px;
   background-color: #00589D;
   width: 100%;
   border-radius: 5px;
+}
+.separator-green {
+  background-color: #8DC63F;
+ 
+}
+
+.container-separator{
+ margin-bottom: -10px;
+ z-index: 9;
+ position: relative;
+}
+
+.container-separator .separator-green{
+  width: 70%;
+  margin: 0 auto;
 }
 
 .contact{
@@ -6864,3 +6929,44 @@ color: #00589D
   height: 100vh;
 }
 
+.halfscreen-contatti{
+  background: url('/images/contatti.png') left;
+  background-size: cover;
+  height: 50vh;
+}
+
+
+.internal .heading-text.heading-section h2,
+.internal p {
+  color: #00589D;
+}
+
+.background-light-blue {
+  background-color: #EFF0F7;
+}
+.background-light-gray {
+  background-color: #E1E2E9 ;
+}
+
+.internal .lead{
+  color: #00589D;
+  font-size: 1rem;
+}
+
+.logo-default img{
+  margin-top: -10px;;
+}
+
+.contatti ul{
+  padding-left: 0;
+}
+.contatti .widget .widget-title {
+  color: #00589D;
+}
+
+.partner .lead{
+  text-align: justify;
+}
+.font-blue{
+  color: #00589D;
+}

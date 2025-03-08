@@ -20,19 +20,20 @@ Route::get('/lang/{locale}', function ($locale) {
         App::setLocale($locale);
         Session::put('locale', $locale);
     }
-    return redirect()->back();
+    return redirect()->back(); 
 });
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {return view('welcome');})->name('servizi');
-Route::get('/test-center', function () {return view('welcome');})->name('test-center');
-Route::get('/formazione', function () {return view('welcome');})->name('formazione');
-Route::get('/blog', function () {return view('welcome');})->name('blog');
-Route::get('/chi-siamo', function () {return view('welcome');})->name('chi-siamo');
-Route::get('/credits', function () {return view('welcome');})->name('credits');
-Route::get('/eventi', function () {return view('welcome');})->name('eventi');
-Route::get('/contatti', function () {return view('welcome');})->name('contatti');
+Route::get('/', function () {return view('home');})->name('home');
+Route::get('/servizi', function () {return view('servizi');})->name('servizi');
+Route::get('/formazione', function () {return view('formazione');})->name('formazione');
+Route::get('chi-siamo', function () {return view('chi-siamo');})->name('chi-siamo');
+Route::get('/partner', function () {return view('partner');})->name('partner');
+Route::get('/contatti', function () {return view('contatti');})->name('contatti');
+Route::get('/selexi-nel-mondo', function () {return view('selexi-nel-mondo');})->name('selexi-nel-mondo');
+Route::get('/blog', function () {return view('blog');})->name('blog');
+
 
