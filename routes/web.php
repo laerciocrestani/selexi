@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Session;
 
 
 Route::get('/lang/{locale}', function ($locale) {
-    if (in_array($locale, ['en', 'pt'])) {
+    if (in_array($locale, ['it', 'en', 'es'])) {
         App::setLocale($locale);
         Session::put('locale', $locale);
     }

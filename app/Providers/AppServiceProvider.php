@@ -22,5 +22,10 @@ class AppServiceProvider extends ServiceProvider
     {
         $locale = session('locale', config('app.locale'));
         App::setLocale($locale);
+
+
+        
+        
+
     }
 }

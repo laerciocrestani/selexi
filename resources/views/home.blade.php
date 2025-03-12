@@ -255,16 +255,15 @@
         <div class="d-flex justify-content-center align-items-center">
             <div class="col-lg-9">
                 <div class="heading-text heading-section">
-                    <h2 class="text-center">Cosa Dicono di noi</h2>
-                    <div class="lead text-lg-start text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
+                    <h2 class="text-center">{{ __('home.dicono.title')}}</h2>
+                    <div class="lead text-center">{{ __('home.dicono.p')}}</div>
                 </div>
             </div>
         </div>
 
         <!-- Testimonials -->
         <div class="mt-5 carousel equalize testimonial testimonial-box" data-margin="20" data-arrows="false" data-items="3" data-equalize-item=".testimonial-item">
-
-            <!-- Testimonials item -->
+            @foreach(__('home.dicono.clients') as $client)
             <div class="testimonial-item">
                 <p class="mt-0 stars">
                     <i class="fas fa-star"></i>
@@ -273,87 +272,14 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </p>
-                <p>Polo is by far the most amazing template out there! I literally could not be happier that I chose to buy this template!</p>
+                <p>{{$client['text']}}</p>
                 <img src="images/avatar.png" alt="">
                 <div class="author">
-                    <div class="mt-4 text-bold">Alan Monre</div>
-                    <div>CEO, Square Software</div>
+                    <!-- <div class="mt-4 text-bold">Alan Monre</div> -->
+                    <div>{{$client['name']}}</div>
                 </div>
             </div>
-            <!-- end: Testimonials item-->
-
-            <!-- Testimonials item -->
-            <div class="testimonial-item">
-                <p class="mt-0 stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </p>
-                <p>Polo is by far the most amazing template out there! I literally could not be happier that I chose to buy this template!</p>
-                <img src="images/avatar.png" alt="">
-                <div class="author">
-                    <div class="mt-4 text-bold">Alan Monre</div>
-                    <div>CEO, Square Software</div>
-                </div>
-            </div>
-            <!-- end: Testimonials item-->
-
-            <!-- Testimonials item -->
-            <div class="testimonial-item">
-                <p class="mt-0 stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </p>
-                <p>Polo is by far the most amazing template out there! I literally could not be happier that I chose to buy this template!</p>
-                <img src="images/avatar.png" alt="">
-                <div class="author">
-                    <div class="mt-4 text-bold">Alan Monre</div>
-                    <div>CEO, Square Software</div>
-                </div>
-            </div>
-            <!-- end: Testimonials item-->
-
-            <!-- Testimonials item -->
-            <div class="testimonial-item">
-                <p class="mt-0 stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </p>
-                <p>Polo is by far the most amazing template out there! I literally could not be happier that I chose to buy this template!</p>
-                <img src="images/avatar.png" alt="">
-                <div class="author">
-                    <div class="mt-4 text-bold">Alan Monre</div>
-                    <div>CEO, Square Software</div>
-                </div>
-            </div>
-            <!-- end: Testimonials item-->
-
-            <!-- Testimonials item -->
-            <div class="testimonial-item">
-                <p class="mt-0 stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </p>
-                <p>Polo is by far the most amazing template out there! I literally could not be happier that I chose to buy this template!</p>
-                <img src="images/avatar.png" alt="">
-                <div class="author">
-                    <div class="mt-4 text-bold">Alan Monre</div>
-                    <div>CEO, Square Software</div>
-                </div>
-            </div>
-            <!-- end: Testimonials item-->
-
+            @endforeach
         </div>
         <!-- end: Testimonials -->
     </div>

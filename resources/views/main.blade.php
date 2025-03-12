@@ -44,11 +44,17 @@
                                 <a id="btn-search" href="#"> <i class="icon-search"></i></a>
                             </li>
                             <li>
-                                <div class="p-dropdown"> <a href="#"><i class="icon-globe"></i><span>EN</span></a>
+                                <div class="p-dropdown"> <a href="#"><i class="icon-globe"></i><span>{{ strtoupper(app()->getLocale()) }}</span></a>
                                     <ul class="p-dropdown-content">
-                                        <li><a href="#">French</a></li>
-                                        <li><a href="#">Spanish</a></li>
-                                        <li><a href="#">English</a></li>
+                                        @if(app()->getLocale() !== 'it')
+                                            <li><a href="{{ url('lang/it') }}">Italiano</a></li>
+                                        @endif
+                                        @if(app()->getLocale() !== 'es')
+                                            <li><a href="{{ url('lang/es') }}">Spanish</a></li>
+                                        @endif
+                                        @if(app()->getLocale() !== 'en')
+                                            <li><a href="{{ url('lang/en') }}">English</a></li>
+                                        @endif
                                     </ul>
                                 </div>
                             </li>
