@@ -6,30 +6,28 @@ return [
         'p' => 'Selexi è il partner ideale per la somministrazione di test per l’ammissione ai Corsi di Laurea a numero programmato e per la gestione di concorsi pubblici. Grazie a un approccio integrato e a soluzioni innovative, supportiamo i più prestigiosi Atenei italiani e la Pubblica Amministrazione in ogni fase delle procedure concorsuali. Con Selexi, ogni progetto viene gestito con competenza, affidabilità e personalizzazione sulla base delle specifiche esigenze dei nostri clienti.',
     ],
     'concorsi' => [
-        'h2' => 'Concorsi pubblici',
-        'btn' => "Leggi I’articolo",
-        'btn_b' => "Guarda tutti",
+        'title' => 'I nostri concorsi'
     ],
     'servizi' => [
-        'p' => 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
+        'title' => 'Servizi',
+        'p' => 'Selexi è il partner ideale per amministrazioni pubbliche e organizzazioni che cercano strumenti avanzati e affidabili per la gestione delle procedure concorsuali. Dai nostri assessment mirati alla piattaforma digitale ExamOnline e ai test center dedicati, offriamo servizi che semplificano ogni fase del processo, garantendo trasparenza, efficienza e una migliore esperienza per tutti i candidati.',
         'title_a' => "Assessment",
-        'p_a' => "Supportiamo le amministrazioni pubbliche nella gestione delle procedure concorsuali attraverso processi di Assessment innovativi e mirati.",
+        'p_a' => "Supportiamo le amministrazioni pubbliche <strong>nella gestione delle procedure concorsuali</strong> attraverso processi di Assessment innovativi e mirati.",
         'title_b' => 'Examonline',
-        'p_b' => "Con ExamOnline, la nostra piattaforma digitale per la gestione e la somministrazione delle prove d'esame per concorsi, garantiamo un processo sicuro, trasparente ed efficace. Semplifica l’organizzazione, riduci i tempi e offri un'esperienza intuitiva ai candidati, dalla registrazione al risultato finale.",
+        'p_b' => "Con <strong>ExamOnline</strong>, la nostra piattaforma digitale per la gestione e la <strong>somministrazione delle prove d'esame per concorsi</strong>, garantiamo un processo sicuro, trasparente ed efficace. Semplifica l’organizzazione, riduci i tempi e offri un'esperienza intuitiva ai candidati, dalla registrazione al risultato finale.",
         'title_c' => "Test Center",
-        'p_c' => "La nostra esperienza nella gestione test center assicura un ambiente ottimale per la somministrazione delle prove d'esame per concorsi.",
-        'btn' => '...'
+        'p_c' => "La nostra esperienza nella <strong>gestione test center</strong> assicura un ambiente ottimale per la <strong>somministrazione delle prove d'esame per concorsi</strong>.",
     ],
     'virtuale' => [
         'title' => "Realtà virtuale",
-        'p' => "Grazie alla piattaforma per la gestione concorsi pubblici, offriamo esperienze immersive per i candidati, migliorando l'organizzazione delle prove d'esame e la trasparenza delle procedure."
+        'p' => "Grazie alla <strong>piattaforma per la gestione concorsi pubblici</strong>, offriamo esperienze immersive per i candidati, migliorando <strong>l'organizzazione delle prove d'esame e la trasparenza delle procedure</strong>."
     ],
     'rivolgiamo' => [
         'title' => "A chi ci rivolgiamo",
         'p' => "Ci rivolgiamo a enti pubblici, aziende e istituzioni che cercano una gestione dei concorsi pubblici moderna ed efficiente. Grazie a strumenti tecnologicamente avanzati, come il nostro software dedicato alla gestione telematica dei concorsi, offriamo soluzioni affidabili e innovative per ottimizzare ogni fase del processo, dalla pianificazione alla somministrazione delle prove.",
-        'check_a' => "Scoprire i tuoi punti di forza e diventare competitivo nel contesto globale.",
-        'check_b' => "Scoprire i tuoi punti di forza e diventare competitivo nel contesto globale.",
-        'check_c' => "Scoprire i tuoi punti di forza e diventare competitivo nel contesto globale.",
+        'check_a' => "Ottimizza i tuoi processi di selezione",
+        'check_b' => "Affidati a una gestione sicura e professionale.",
+        'check_c' => "Migliora l'esperienza dei tuoi candidati"
     ],
     'professionisti' => [
         'title' => "I nostri professionisti",
@@ -37,15 +35,15 @@ return [
     ],
     'scegliere' => [
         'title' => "Perchè scegliere Selexi",
-        'p' => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo sed quia consequuntur magni dolores eos. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo sed quia consequuntur magni dolores eos.",
+        'p' => "Siamo il partner ideale per la gestione di concorsi pubblici e privati, grazie alla nostra esperienza consolidata e all'uso di tecnologie all'avanguardia. Offriamo soluzioni personalizzate per garantire processi efficienti, sicuri e trasparenti, ottimizzando ogni fase dell’organizzazione.<br><br>Affidarsi a Selexi significa scegliere professionalità, innovazione e un approccio orientato al successo, per semplificare la gestione delle procedure concorsuali e migliorare l’esperienza dei candidati.",
         'title_a' => "Innovazione",
-        'info_a' => "Utilizziamo il miglior software di gestione concorsi pubblici per garantire trasparenza e affidabilità.",
+        'info_a' => "Utilizziamo il miglior <strong>software di gestione concorsi pubblici</strong> per garantire trasparenza e affidabilità.",
         'title_b' => "Efficienza",
-        'info_b' => "La nostra piattaforma di gestione concorsi pubblici accelera i tempi e riduce i costi.",
+        'info_b' => "La nostra piattaforma di <strong>gestione concorsi pubblici</strong> accelera i tempi e riduce i costi.",
         'title_c' => "Esperienza",
-        'info_c' => "Oltre 20 anni di esperienza nell'organizzazione di prove d'esame e gestione concorsi informatizzati e telematici.",
+        'info_c' => "Oltre 20 anni di esperienza nell'organizzazione di <strong>prove d'esame e gestione concorsi informatizzati e telematici</strong>.",
         'title_d' => "Supporto completo",
-        'info_d' => "Dalla somministrazione dei test per concorsi alla valutazione dei risultati, ci occupiamo di ogni fase.",
+        'info_d' => "Dalla <strong>somministrazione dei test per concorsi alla valutazione dei risultati<strong>, ci occupiamo di ogni fase.",
         'btn' => '...'
     ],
     'dicono' => [

@@ -21,7 +21,7 @@
 <section class="content background-grey">
     <div class="container">
         <div class="heading-text heading-section">
-            <h2 class="text-center">I nostri concorsi</h2>
+            <h2 class="text-center">{{ __('home.concorsi.title') }}</h2>
         </div>
 
         <div id="blog" class="grid-layout post-3-columns m-b-30" data-item="post-item">
@@ -99,35 +99,35 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="heading-text heading-section">
-                    <h2 class="text-white">Servizi</h2>
+                    <h2 class="text-white">{{ __('home.servizi.title') }}</h2>
                 </div>
             </div>
             <div class="col-lg-9">
-                <p class="text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <p class="text-white">{{ __('home.servizi.p') }}</p>
             </div>
         </div>
         <div class="row servizi mt-6">
             <div class="col-lg-4">
                 <div class="text-center">
                     <div class="icon"><img src="/images/assessment.png" alt="" srcset=""></div>
-                    <h4>Assessment</h4>
-                    <p>Use this space to promote the business, its products or its services.</p>
+                    <h4>{!! __('home.servizi.title_a') !!}</h4>
+                    <p class="p-5">{!! __('home.servizi.p_a') !!}</p>
                     <a href="#" class="btn btn-success btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
                 </div>
             </div>
             <div class="col-lg-4 mt-4 mt-lg-0">
                 <div class="text-center">
                     <div class="icon"><img src="/images/examonline.png" alt="" srcset=""></div>
-                    <h4>Examonline</h4>
-                    <p>Use this space to promote the business, its products or its services.</p>
+                    <h4>{!! __('home.servizi.title_b') !!}</h4>
+                    <p class="p-5">{!! __('home.servizi.p_b') !!}</p>
                     <a href="#" class="btn btn-success btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
                 </div>
             </div>
             <div class="col-lg-4 mt-4 mt-lg-0">
                 <div class="text-center">
                     <div class="icon"><img src="/images/test-center.png" alt="" srcset=""></div>
-                    <h4>Test Center</h4>
-                    <p>Use this space to promote the business, its products or its services.</p>
+                    <h4>{!! __('home.servizi.title_c') !!}</h4>
+                    <p class="p-5">{!! __('home.servizi.p_c') !!}</p>
                     <a href="#" class="btn btn-success btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
                 </div>
             </div>
@@ -142,9 +142,8 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="text-middle">
-                    <h2 class="font-blue">Realtà virtuale</h2>
-                    <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                        Nemo sed quia consequuntur magni dolores eos. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo sed quia consequuntur magni dolores eos .</p>
+                    <h2 class="font-blue">{!! __('home.virtuale.title') !!}</h2>
+                    <p class="lead">{!! __('home.virtuale.p') !!}</p>
                 </div>
             </div>
         </div>
@@ -157,8 +156,8 @@
         <div class="d-flex justify-content-center align-items-center">
             <div class="col-lg-9">
                 <div class="heading-text heading-section">
-                    <h2 class="text-lg-center mb-3">A chi ci rivolgiamo</h2>
-                    <span class="text-center lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</span>
+                    <h2 class="text-lg-center mb-3">{!! __('home.rivolgiamo.title') !!}</h2>
+                    <span class="text-center lead">{!! __('home.rivolgiamo.p') !!}</span>
                 </div>
             </div>
         </div>
@@ -168,7 +167,7 @@
                     <div class="icon">
                         <i class="fas fa-check"></i>
                     </div>
-                    <p class="text-bold">Scoprire i tuoi punti di forza e diventare competitivo nel contesto globale.</p>
+                    <p class="text-bold">{!! __('home.rivolgiamo.check_a') !!}</p>
                 </div>
             </div>
             <div class="col-lg-4" >
@@ -176,7 +175,7 @@
                     <div class="icon">
                         <i class="fas fa-check"></i>
                     </div>
-                    <p class="text-bold">Scoprire i tuoi punti di forza e diventare competitivo nel contesto globale.</p>
+                    <p class="text-bold">{!! __('home.rivolgiamo.check_b') !!}</p>
                 </div>
             </div>
             <div class="col-lg-4" >
@@ -184,7 +183,7 @@
                     <div class="icon">
                         <i class="fas fa-check"></i>
                     </div>
-                    <p class="text-bold">Scoprire i tuoi punti di forza e diventare competitivo nel contesto globale.</p>
+                    <p class="text-bold">{!! __('home.rivolgiamo.check_c') !!}</p>
                 </div>
             </div>
         </div>
@@ -198,8 +197,8 @@
             </div>
             <div class="col-lg-6">
                 <div class="heading-text heading-section">
-                    <h4 class="mt-4 mt-lg-0">I nostri professionisti</h4>
-                    <span class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</span>
+                    <h4 class="mt-4 mt-lg-0">{!! __('home.professionisti.title') !!}</h4>
+                    <span class="lead">{!! __('home.professionisti.p') !!}</span>
                 </div>
             </div>
         </div>
@@ -213,33 +212,42 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="heading-text heading-section">
-                    <h2>Perchè scegliere Selexi</h2>
-                    <span class="lead text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </span>
+                    <h2>{!! __('home.scegliere.title') !!}<</h2>
+                    <span class="lead text-white">{!! __('home.scegliere.p') !!}</span>
                 </div>
             </div>
         </div>
         <div class="row perche mt-6">
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="text-center">
-                    <div class="icon"><img src="/images/assessment.png" alt="" srcset=""></div>
-                    <h4>Assessment</h4>
-                    <p>Use this space to promote the business, its products or its services.</p>
+                    <div class="icon"><img src="/images/generic-Icon.png" alt="" srcset=""></div>
+                    <h4>{!! __('home.scegliere.title_a') !!}</h4>
+                   <p>{!! __('home.scegliere.info_a') !!}</p>
                     <a href="#" class="btn btn-white btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
                 </div>
             </div>
-            <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="col-lg-3 mt-4 mt-lg-0">
                 <div class="text-center">
-                    <div class="icon"><img src="/images/examonline.png" alt="" srcset=""></div>
-                    <h4>Examonline</h4>
-                    <p>Use this space to promote the business, its products or its services.</p>
+                    <div class="icon"><img src="/images/generic-Icon.png" alt="" srcset=""></div>
+                    <h4>{!! __('home.scegliere.title_b') !!}</h4>
+                   <p>{!! __('home.scegliere.info_b') !!}</p>
                     <a href="#" class="btn btn-white btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
                 </div>
             </div>
-            <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="col-lg-3 mt-4 mt-lg-0">
                 <div class="text-center">
-                    <div class="icon"><img src="/images/test-center.png" alt="" srcset=""></div>
-                    <h4>Test Center</h4>
-                    <p>Use this space to promote the business, its products or its services.</p>
+                    <div class="icon"><img src="/images/generic-Icon.png" alt="" srcset=""></div>
+                    <h4>{!! __('home.scegliere.title_c') !!}</h4>
+                   <p>{!! __('home.scegliere.info_c') !!}</p>
+                    <a href="#" class="btn btn-white btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 mt-4 mt-lg-0">
+                <div class="text-center">
+                    <div class="icon"><img src="/images/generic-Icon.png" alt="" srcset=""></div>
+                    <h4>{!! __('home.scegliere.title_d') !!}</h4>
+                   <p>{!! __('home.scegliere.info_d') !!}</p>
                     <a href="#" class="btn btn-white btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
                 </div>
             </div>
@@ -262,7 +270,7 @@
         </div>
 
         <!-- Testimonials -->
-        <div class="mt-5 carousel equalize testimonial testimonial-box" data-margin="20" data-arrows="false" data-items="3" data-equalize-item=".testimonial-item">
+        <div class="mt-5 carousel testimonial testimonial-box" data-margin="20" data-arrows="false" data-items="3" data-equalize-item=".testimonial-item">
             @foreach(__('home.dicono.clients') as $client)
             <div class="testimonial-item">
                 <p class="mt-0 stars">

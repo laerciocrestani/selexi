@@ -49,9 +49,9 @@
                                         @if(app()->getLocale() !== 'it')
                                             <li><a href="{{ url('lang/it') }}">Italiano</a></li>
                                         @endif
-                                        @if(app()->getLocale() !== 'es')
+                                        <!-- @if(app()->getLocale() !== 'es')
                                             <li><a href="{{ url('lang/es') }}">Spanish</a></li>
-                                        @endif
+                                        @endif -->
                                         @if(app()->getLocale() !== 'en')
                                             <li><a href="{{ url('lang/en') }}">English</a></li>
                                         @endif
@@ -88,8 +88,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="heading-text heading-section">
-                            <h2 class="text-center mb-3">Richiedi informazioni</h2>
-                            <p class="text-center text-white">Per maggiori dettagli sui nostri servizi e soluzioni, compila il modulo e sarai ricontattato al più presto.</p>
+                            <h2 class="text-center mb-3">{{ __('home.informazioni.title')}}</h2>
+                            <p class="text-center text-white">{{ __('home.informazioni.p')}}</p>
                         </div>
                         <div class="m-t-30">
                             <form class="widget-contact-form" data-success-message-delay="40000" novalidate action="include/contact-form.php" role="form" method="post">
@@ -144,7 +144,7 @@
         <section class="content background-grey certificazioni">
             <div class="container">
                 <div class="heading-text heading-section text-center">
-                    <h2>Certificazioni</h2>
+                    <h2>{{ __('home.certificazioni.title')}}</h2>
                 </div>
 
                 <ul class="grid grid-5-columns">
