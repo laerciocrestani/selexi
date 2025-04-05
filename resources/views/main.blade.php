@@ -47,13 +47,13 @@
                                 <div class="p-dropdown"> <a href="#"><i class="icon-globe"></i><span>{{ strtoupper(app()->getLocale()) }}</span></a>
                                     <ul class="p-dropdown-content">
                                         @if(app()->getLocale() !== 'it')
-                                            <li><a href="{{ url('lang/it') }}">Italiano</a></li>
+                                        <li><a href="{{ url('lang/it') }}">Italiano</a></li>
                                         @endif
                                         <!-- @if(app()->getLocale() !== 'es')
                                             <li><a href="{{ url('lang/es') }}">Spanish</a></li>
                                         @endif -->
                                         @if(app()->getLocale() !== 'en')
-                                            <li><a href="{{ url('lang/en') }}">English</a></li>
+                                        <li><a href="{{ url('lang/en') }}">English</a></li>
                                         @endif
                                     </ul>
                                 </div>
@@ -68,10 +68,8 @@
                     <div id="mainMenu">
                         <div class="container">
                             <nav>
-                                <ul>
-                                    @foreach(__('menu') as $key => $m)
-                                        <li><a href="{{ route($key) }}">{{ $m }}</a></li>
-                                    @endforeach
+                            <ul>
+                                @include('partials.menu', ['items' => __('menu.items')])
                                 </ul>
                             </nav>
                         </div>
@@ -173,14 +171,12 @@
     <footer id="footer">
         <div class="footer-content">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-2">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6">
                         <div class="widget">
-                            <div class="widget-title"><img src="/images/black.png" alt=""></div>
+                            <div class="widget-title"><img src="/images/black.png" alt=""> <span style="padding-left:20px">&copy; {{date("Y")}} -  SELEXI Srl</span></div>
+                            
                         </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
                     </div>
                 </div>
                 <div class="row">
@@ -189,7 +185,8 @@
                             <div class="widget-title">Sede legale e operativa</div>
                             <ul class="list">
                                 <li>Via Gerolamo Vida, 11 - 20127 Milano<br>P.IVA 12852900153<br>Tel. 02 58 32 23 02<br>Fax 02 58 43 48 33</li>
-                            </ul>
+                                </ul>
+                                <div class="mt-4"><img src="/images/spada.png" height="20"> <small>Agenzia Social Milano</small></div>
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -210,9 +207,11 @@
                             <div class="widget-title">Social</div>
                             <div class="social-icons social-icons-light social-icons-colored-hover">
                                 <ul>
-                                    <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <li class="social-facebook"><a target="_blank" href="https://www.facebook.com/selexi.srl99"><i class="fab fa-facebook-f"></i></a>
                                     </li>
-                                    <li class="social-instagram"><a href="#"><i class="fab fa-instagram"></i></a>
+                                    <li class="social-linkedin"><a target="_blank" href="https://it.linkedin.com/company/selexi"><i class="fab fa-linkedin"></i></a>
+                                    </li>
+                                    <li class="social-instagram"><a target="_blank" href="https://www.instagram.com/selexi.srl"><i class="fab fa-instagram"></i></a>
                                     </li>
                                 </ul>
                             </div>

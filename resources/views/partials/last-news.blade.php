@@ -17,7 +17,7 @@
                 <div class="post-item-wrap">
                     <div class="post-image p-4">
                         <a href="#">
-                            <img alt="" class="rounded" src="images/325x350.png">
+                            <img alt="" class="rounded" src="images/blog/1.png">
                         </a>
                     </div>
                     <div class="post-item-description">
@@ -34,7 +34,7 @@
                 <div class="post-item-wrap">
                     <div class="post-image p-4">
                         <a href="#">
-                            <img alt="" class="rounded" src="images/325x350.png">
+                            <img alt="" class="rounded" src="images/blog/2.png">
                         </a>
                     </div>
                     <div class="post-item-description">
@@ -51,7 +51,7 @@
                 <div class="post-item-wrap">
                     <div class="post-image p-4">
                         <a href="#">
-                            <img alt="" class="rounded" src="images/325x350.png">
+                            <img alt="" class="rounded" src="images/blog/3.png">
                         </a>
                     </div>
                     <div class="post-item-description">

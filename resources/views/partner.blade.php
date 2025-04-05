@@ -10,17 +10,15 @@
     </div>
 </section>
 
-<div class="container container-separator"> 
+<div class="container container-separator">
     <div class="separator-green"></div>
 </div>
 <section class="">
     <div class="container internal partner ">
-        <div class="row align-items-center">    
+        <div class="row align-items-center">
             <div class="col-lg-4">
-                <div class="ratio ratio-16x9">
-                    <div class="ratio ratio-16x9">
-                    <img alt="" class="rounded" src="images/325x350.png">
-                    </div>
+                <div class="palco d-flex justify-content-center align-items-center">
+                    <img alt="" class="rounded img-fluid" src="images/partner/examonline.png">
                 </div>
             </div>
             <div class="col-lg-8 mt-lg-0">
@@ -28,17 +26,16 @@
                     <h4 class="mt-4 mt-lg-0">{{ __('partner.examonline.title') }}</h4>
                     <div class="lead">{!! __('partner.examonline.p') !!}</div>
                     <div>
-                    <a href="#" class="mt-4 btn btn-rounded btn-success-green pull-right" class="item-link">{{ __('btn.leggi-larticolo')}}</a>
+                        <a href="#" class="mt-4 btn btn-rounded btn-success-green pull-right" class="item-link">{{ __('btn.leggi-larticolo')}}</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row align-items-center mt-4">    
+        <div class="row align-items-center mt-4">
             <div class="col-lg-4">
-                <div class="ratio ratio-16x9">
-                    <div class="ratio ratio-16x9">
-                    <img alt="" class="rounded" src="images/325x350.png">
-                    </div>
+                <div class="palco d-flex justify-content-center align-items-center">
+
+                    <img alt="" class="rounded img-fluid" src="images/partner/fluorish.png">
                 </div>
             </div>
             <div class="col-lg-8 mt-lg-0">
@@ -46,17 +43,16 @@
                     <h4 class="mt-4 mt-lg-0">{{ __('partner.fluorish.title') }}</h4>
                     <div class="lead">{!! __('partner.fluorish.p') !!}</div>
                     <div>
-                    <a href="#" class="mt-4 btn btn-rounded btn-success-green pull-right" class="item-link">{{ __('btn.leggi-larticolo')}}</a>
+                        <a href="#" class="mt-4 btn btn-rounded btn-success-green pull-right" class="item-link">{{ __('btn.leggi-larticolo')}}</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row align-items-center mt-4">    
+        <div class="row align-items-center mt-4">
             <div class="col-lg-4">
-                <div class="ratio ratio-16x9">
-                    <div class="ratio ratio-16x9">
-                    <img alt="" class="rounded" src="images/325x350.png">
-                    </div>
+                <div class="palco d-flex justify-content-center align-items-center">
+
+                    <img alt="" class="rounded img-fluid" src="images/partner/hirintio.png">
                 </div>
             </div>
             <div class="col-lg-8 mt-lg-0">
@@ -64,7 +60,7 @@
                     <h4 class="mt-4 mt-lg-0">{{ __('partner.hirint-io.title') }}</h4>
                     <div class="lead">{!! __('partner.hirint-io.p') !!}</div>
                     <div>
-                    <a href="#" class="mt-4 btn btn-rounded btn-success-green pull-right" class="item-link">{{ __('btn.leggi-larticolo')}}</a>
+                        <a href="#" class="mt-4 btn btn-rounded btn-success-green pull-right" class="item-link">{{ __('btn.leggi-larticolo')}}</a>
                     </div>
                 </div>
             </div>
@@ -74,6 +70,6 @@
 
 
 
-@include('partials.last-news')  
+@include('partials.last-news')
 
 @endsection

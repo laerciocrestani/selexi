@@ -30,14 +30,13 @@
                 <div class="post-item-wrap">
                     <div class="post-image p-4">
                         <a href="#">
-                            <img alt="" class="rounded" src="images/325x350.png">
+                            <img alt="" class="rounded" src="images/concorsi/1.png">
                         </a>
                     </div>
                     <div class="post-item-description">
                         <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
-                        <h2><a href="#">Standard post with a single image
-                            </a></h2>
-                        <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                        <h2><a href="#">Computer Based Test (CBT)</a></h2>
+                        <p>Scoprite come il servizio Computer Based Test Home può trasformare il tuo processo di selezione.</p>
 
                         <a href="#" class="btn btn-rounded pull-right" class="item-link">{{ __('btn.leggi-larticolo')}}</a>
 
@@ -48,14 +47,13 @@
                 <div class="post-item-wrap">
                     <div class="post-image p-4">
                         <a href="#">
-                            <img alt="" class="rounded" src="images/325x350.png">
+                            <img alt="" class="rounded" src="images/concorsi/2.png">
                         </a>
                     </div>
                     <div class="post-item-description">
                         <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
-                        <h2><a href="#">Standard post with a single image
-                            </a></h2>
-                        <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                        <h2><a href="#">Paper Based Test (PBT)</a></h2>
+                        <p>Scoprite come il servizio Paper Based Test Home di Selexi può trasformare il tuo processo di selezione.</p>
 
                         <a href="#" class="btn btn-rounded pull-right" class="item-link">{{ __('btn.leggi-larticolo')}}</a>
 
@@ -66,14 +64,13 @@
                 <div class="post-item-wrap">
                     <div class="post-image p-4">
                         <a href="#">
-                            <img alt="" class="rounded" src="images/325x350.png">
+                            <img alt="" class="rounded" src="images/concorsi/3.png">
                         </a>
                     </div>
                     <div class="post-item-description">
                         <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
-                        <h2><a href="#">Standard post with a single image
-                            </a></h2>
-                        <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                        <h2><a href="#">Tablet Based Test (TBT)</a></h2>
+                        <p>Scopri come il servizio Tablet Based Test di Selexi può migliorare l’efficienza e la sicurezza delle tue selezioni.</p>
 
                         <a href="#" class="btn btn-rounded pull-right" class="item-link">{{ __('btn.leggi-larticolo')}}</a>
 
@@ -143,7 +140,7 @@
             <div class="col-lg-6">
                 <div class="text-middle">
                     <h2 class="font-blue">{!! __('home.virtuale.title') !!}</h2>
-                    <p class="lead">{!! __('home.virtuale.p') !!}</p>
+                    <p class="lead text-black">{!! __('home.virtuale.p') !!}</p>
                 </div>
             </div>
         </div>
@@ -162,7 +159,7 @@
             </div>
         </div>
         <div class="row my-6">
-            <div class="col-lg-4" >
+            <div class="col-lg-4">
                 <div class="icon-box small">
                     <div class="icon">
                         <i class="fas fa-check"></i>
@@ -170,7 +167,7 @@
                     <p class="text-bold">{!! __('home.rivolgiamo.check_a') !!}</p>
                 </div>
             </div>
-            <div class="col-lg-4" >
+            <div class="col-lg-4">
                 <div class="icon-box small ">
                     <div class="icon">
                         <i class="fas fa-check"></i>
@@ -178,7 +175,7 @@
                     <p class="text-bold">{!! __('home.rivolgiamo.check_b') !!}</p>
                 </div>
             </div>
-            <div class="col-lg-4" >
+            <div class="col-lg-4">
                 <div class="icon-box small ">
                     <div class="icon">
                         <i class="fas fa-check"></i>
@@ -207,12 +204,12 @@
 </section>
 
 
-<section class="content background-blue pb-0">
+<section class="content background-blue pb-0 mb-0">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="heading-text heading-section">
-                    <h2>{!! __('home.scegliere.title') !!}<</h2>
+                    <h2>{!! __('home.scegliere.title') !!}</h2>
                     <span class="lead text-white">{!! __('home.scegliere.p') !!}</span>
                 </div>
             </div>
@@ -222,24 +219,24 @@
                 <div class="text-center">
                     <div class="icon"><img src="/images/generic-Icon.png" alt="" srcset=""></div>
                     <h4>{!! __('home.scegliere.title_a') !!}</h4>
-                   <p>{!! __('home.scegliere.info_a') !!}</p>
-                    <a href="#" class="btn btn-white btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
+                    <p>{!! __('home.scegliere.info_a') !!}</p>
+                    <!-- <a href="#" class="btn btn-white btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a> -->
                 </div>
             </div>
             <div class="col-lg-3 mt-4 mt-lg-0">
                 <div class="text-center">
                     <div class="icon"><img src="/images/generic-Icon.png" alt="" srcset=""></div>
                     <h4>{!! __('home.scegliere.title_b') !!}</h4>
-                   <p>{!! __('home.scegliere.info_b') !!}</p>
-                    <a href="#" class="btn btn-white btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
+                    <p>{!! __('home.scegliere.info_b') !!}</p>
+                    <!-- <a href="#" class="btn btn-white btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a> -->
                 </div>
             </div>
             <div class="col-lg-3 mt-4 mt-lg-0">
                 <div class="text-center">
                     <div class="icon"><img src="/images/generic-Icon.png" alt="" srcset=""></div>
                     <h4>{!! __('home.scegliere.title_c') !!}</h4>
-                   <p>{!! __('home.scegliere.info_c') !!}</p>
-                    <a href="#" class="btn btn-white btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
+                    <p>{!! __('home.scegliere.info_c') !!}</p>
+                    <!-- <a href="#" class="btn btn-white btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a> -->
                 </div>
             </div>
 
@@ -247,52 +244,23 @@
                 <div class="text-center">
                     <div class="icon"><img src="/images/generic-Icon.png" alt="" srcset=""></div>
                     <h4>{!! __('home.scegliere.title_d') !!}</h4>
-                   <p>{!! __('home.scegliere.info_d') !!}</p>
-                    <a href="#" class="btn btn-white btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
+                    <p>{!! __('home.scegliere.info_d') !!}</p>
+                    <!-- <a href="#" class="btn btn-white btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a> -->
                 </div>
             </div>
 
+            <div class="text-center">
+                <a href="#" class="btn btn-white btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
+            </div>
+
         </div>
+
 
     </div>
 </section>
 
 
-<section class="section-reviews" class="p-t-150 p-b-100">
-    <div class="container">
-        <div class="d-flex justify-content-center align-items-center">
-            <div class="col-lg-9">
-                <div class="heading-text heading-section">
-                    <h2 class="text-center">{{ __('home.dicono.title')}}</h2>
-                    <div class="lead text-center">{{ __('home.dicono.p')}}</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Testimonials -->
-        <div class="mt-5 carousel testimonial testimonial-box" data-margin="20" data-arrows="false" data-items="3" data-equalize-item=".testimonial-item">
-            @foreach(__('home.dicono.clients') as $client)
-            <div class="testimonial-item">
-                <p class="mt-0 stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </p>
-                <p>{{$client['text']}}</p>
-                <img src="images/avatar.png" alt="">
-                <div class="author">
-                    <!-- <div class="mt-4 text-bold">Alan Monre</div> -->
-                    <div>{{$client['name']}}</div>
-                </div>
-            </div>
-            @endforeach
-        </div>
-        <!-- end: Testimonials -->
-    </div>
-    <div class="triangle-divider-bottom"></div>
-</section>
+@include('partials.dicono')
 
 @include('partials.last-news')
 

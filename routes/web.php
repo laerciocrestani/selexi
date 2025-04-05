@@ -35,5 +35,6 @@ Route::get('/partner', function () {return view('partner');})->name('partner');
 Route::get('/contatti', function () {return view('contatti');})->name('contatti');
 Route::get('/selexi-nel-mondo', function () {return view('selexi-nel-mondo');})->name('selexi-nel-mondo');
 Route::get('/blog', function () {return view('blog');})->name('blog');
+Route::get('/assessment', function () {return view('assessment');})->name('assessment');
 
 

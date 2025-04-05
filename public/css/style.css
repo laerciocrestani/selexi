@@ -573,7 +573,7 @@ Main Menu
 
 #mainMenu nav > ul > li { float: left; border: 0; -webkit-transition: all .3s ease; transition: all .3s ease; margin-left: 6px; position: relative; }
 
-#mainMenu nav > ul > li > a { position: relative; font-family: "Quicksand", sans-serif; padding: 10px 12px; text-transform: uppercase; font-size: 12px; font-weight: 600; letter-spacing: 0.6px; color: #000000; border-radius: 0; border-width: 0; border-style: solid; border-color: transparent; -webkit-transition: all .3s ease; transition: all .3s ease; line-height: normal; }
+#mainMenu nav > ul > li > a { position: relative; font-family: "Quicksand", sans-serif; padding: 10px 6px; text-transform: uppercase; font-size: 12px; font-weight: 600; letter-spacing: 0.6px; color: #000000; border-radius: 0; border-width: 0; border-style: solid; border-color: transparent; -webkit-transition: all .3s ease; transition: all .3s ease; line-height: normal; }
 
 #mainMenu nav > ul > li > a > i { margin-left: 2px; margin-right: 6px; min-width: 14px; font-size: 14px; }
 
@@ -6843,8 +6843,7 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
   flex-wrap: wrap;
   min-height: 300px;;
 }
-.realta-virtuale h1,
-.realta-virtuale p{
+.realta-virtuale h1{
 color: #00589D
 }
 
@@ -6969,4 +6968,36 @@ color: #00589D
 }
 .font-blue{
   color: #00589D;
+}
+
+.palco{
+  /* background-color: #ccc;
+  border-radius: 20px;
+  height: 100%; */
+  min-height: 300px;
+}
+
+.assessment{
+  border-radius: 15px;
+
+  background-color: #FFF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #00589D
+}
+.assessment h3, .assessment h4, .assessment p{
+  color: #00589D
+}
+
+.assessment h3{
+  font-size: 40px;
+  font-weight: 800;
+}
+.assessment h4{
+  font-size: 24px;
+line-height: 2rem;
+}
+
+.perche-scegliere h4, .perche-scegliere p{
+  color: #CEEDA2
 }
