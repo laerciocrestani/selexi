@@ -154,7 +154,7 @@
             <div class="col-lg-9">
                 <div class="heading-text heading-section">
                     <h2 class="text-lg-center mb-3">{!! __('home.rivolgiamo.title') !!}</h2>
-                    <span class="text-center lead">{!! __('home.rivolgiamo.p') !!}</span>
+                    <div class="text-center lead">{!! __('home.rivolgiamo.p') !!}</div>
                 </div>
             </div>
         </div>

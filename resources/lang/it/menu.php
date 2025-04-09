@@ -5,23 +5,23 @@ return [
     'items' => [
         [
             'label' => 'Servizi',
-            'url' => '#',
+            'url' => 'servizi',
             'children' => [
                 [
                     'label' => 'Concorso', 
-                    'url' => '#', 
+                    'url' => 'concorso', 
                     'children' => [
                         [
                             'label' => 'Computer Based Test (CBT)', 
-                            'url' => 'assessment'
+                            'url' => 'concorso-cbt'
                         ],
                         [
                             'label' => 'Paper Based Test (PBT)', 
-                            'url' => 'assessment'
+                            'url' => 'concorso-cbt'
                         ],
                         [
                             'label' => 'Tablet Based Test (TBT)', 
-                            'url' => 'assessment'
+                            'url' => 'concorso-cbt'
                         ],
                     ]
                 ],

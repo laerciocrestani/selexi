@@ -11,8 +11,8 @@
     <!-- Document title -->
     <title>Selexi - Test your future</title>
     <!-- Stylesheets & Fonts -->
-    <link href="css/plugins.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/plugins.css?1=1" rel="stylesheet">
+    <link href="css/style.css?1=1" rel="stylesheet">
 </head>
 
 <body>
@@ -39,6 +39,7 @@
                     <!-- end: search -->
                     <!--Header Extras-->
                     <div class="header-extras">
+                        
                         <ul>
                             <li>
                                 <a id="btn-search" href="#"> <i class="icon-search"></i></a>
@@ -49,9 +50,9 @@
                                         @if(app()->getLocale() !== 'it')
                                         <li><a href="{{ url('lang/it') }}">Italiano</a></li>
                                         @endif
-                                        <!-- @if(app()->getLocale() !== 'es')
+                                        @if(app()->getLocale() !== 'es')
                                             <li><a href="{{ url('lang/es') }}">Spanish</a></li>
-                                        @endif -->
+                                        @endif
                                         @if(app()->getLocale() !== 'en')
                                         <li><a href="{{ url('lang/en') }}">English</a></li>
                                         @endif

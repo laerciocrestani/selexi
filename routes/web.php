@@ -38,3 +38,5 @@ Route::get('/blog', function () {return view('blog');})->name('blog');
 Route::get('/assessment', function () {return view('assessment');})->name('assessment');
 
 
+Route::get('/concorso', function () {return view('concorso');})->name('concorso');
+Route::get('/concorso-cbt', function () {return view('concorso-cbt');})->name('concorso-cbt');

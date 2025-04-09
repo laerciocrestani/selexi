@@ -6841,7 +6841,7 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
   -webkit-box-align: center !important;
   display: flex;
   flex-wrap: wrap;
-  min-height: 300px;;
+  min-height: 450px;
 }
 .realta-virtuale h1{
 color: #00589D
@@ -7001,3 +7001,14 @@ line-height: 2rem;
 .perche-scegliere h4, .perche-scegliere p{
   color: #CEEDA2
 }
+
+.concorso-more h2, .concorso-more p, .concorso-more ul{
+  color: #FFF
+}
+
+
+
+
+
+
+

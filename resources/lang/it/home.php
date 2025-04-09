@@ -48,7 +48,9 @@ return [
     ],
     'dicono' => [
         'title' => "Cosa Dicono di noi",
-        'p' => "Selexi è riconosciuta per la sua capacità di innovare e offrire soluzioni all’avanguardia nella gestione delle procedure concorsuali. La soddisfazione dei nostri clienti è il nostro miglior biglietto da visita: scopri le loro recensioni e lasciati guidare dalle esperienze positive di chi ha scelto i nostri servizi.",
+        'p' => "Le recensioni dei nostri clienti raccontano il valore del nostro servizio di assessment. Dalla
+definizione delle competenze alla valutazione digitale, il nostro approccio personalizzato e i
+risultati affidabili fanno la differenza in ogni progetto.",
         'clients' => [
             [
                 'text' => "Grazie a Selexi, siamo riusciti a completare tre concorsi pubblici in tempi record, garantendo trasparenza, rapidità e qualità nelle selezioni. L’utilizzo delle tecnologie digitali e delle valutazioni su soft skill ha reso le procedure innovative e altamente efficaci. Un partner essenziale per il successo del nostro piano di assunzioni.",
