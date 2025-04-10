@@ -6807,9 +6807,16 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
 	width: 100%;
 }
 
-.post-item .post-item-wrap{
-  border-radius: 20px;
+.post-item{
+  padding: 10px;
 }
+
+.post-item .post-item-wrap{
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
 
 .servizi, .perche{
   border-start-start-radius: 15px;
@@ -7005,7 +7012,6 @@ line-height: 2rem;
 .concorso-more h2, .concorso-more p, .concorso-more ul{
   color: #FFF
 }
-
 
 
 

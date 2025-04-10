@@ -34,9 +34,13 @@ Route::get('chi-siamo', function () {return view('chi-siamo');})->name('chi-siam
 Route::get('/partner', function () {return view('partner');})->name('partner');
 Route::get('/contatti', function () {return view('contatti');})->name('contatti');
 Route::get('/selexi-nel-mondo', function () {return view('selexi-nel-mondo');})->name('selexi-nel-mondo');
-Route::get('/blog', function () {return view('blog');})->name('blog');
+Route::get('/news', function () {return view('news');})->name('news');
 Route::get('/assessment', function () {return view('assessment');})->name('assessment');
-
 
 Route::get('/concorso', function () {return view('concorso');})->name('concorso');
 Route::get('/concorso-cbt', function () {return view('concorso-cbt');})->name('concorso-cbt');
+
+
+Route::get('/news/{slug}', function ($slug) {
+    return view('post', ['slug' => $slug]);
+});

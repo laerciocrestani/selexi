@@ -11,8 +11,8 @@
     <!-- Document title -->
     <title>Selexi - Test your future</title>
     <!-- Stylesheets & Fonts -->
-    <link href="css/plugins.css?1=1" rel="stylesheet">
-    <link href="css/style.css?1=1" rel="stylesheet">
+    <link href="/css/plugins.css?time=<?php echo time()?>" rel="stylesheet">
+    <link href="/css/style.css?time=<?php echo time()?>" rel="stylesheet">
 </head>
 
 <body>

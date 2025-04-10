@@ -33,7 +33,7 @@ return [
         ],
         ['label' => 'Test Center', 'url' => '#'],
         ['label' => 'Formazione', 'url' => 'formazione'],
-        ['label' => 'Blog', 'url' => '#'],
+        ['label' => 'News', 'url' => 'news'],
         ['label' => 'Chi Siamo', 'url' => 'chi-siamo'],
         ['label' => 'Sostenibilità', 'url' => '#'],
         ['label' => 'Partner', 'url' => 'partner'],

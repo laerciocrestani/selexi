@@ -6,6 +6,7 @@ return [
 Grazie a questo sistema innovativo, si è registrata una media di affluenza vicina al 70%, ampliando significativamente il bacino di partecipanti.',
     'img' => 'img/computer-based-test-cbt.jpg',
     'come-funziona' => [
+        'title' => "Come funziona il nostro sistema CBT?",
         'p' => "Il nostro sistema di Computer Based Test (CBT) è progettato per semplificare e ottimizzare ogni fase delle prove concorsuali, garantendo un'esperienza fluida e sicura sia per i candidati che per le commissioni. Attraverso tecnologie innovative e una gestione altamente personalizzabile, assicuriamo un controllo rigoroso, un monitoraggio efficace e un accesso inclusivo per tutti i partecipanti.",
         'a' => [
             'title' => "Piattaforma avanzata",
@@ -49,8 +50,12 @@ I dati vengono trattati nel rispetto del GDPR e sono ospitati su server situati 
         'item4' => [
             'description' => "Trasparenza e privacy: rispetto del GDPR e sorveglianza qualificata."
         ]
+    ],
+    'cta' => [
+        'title' => "Contattaci per maggiori informazioni",
+        'p' => "Scoprite come il servizio Computer Based Test Home di Selexi può trasformare il tuo processo di selezione. Contattateci subito per maggiori informazioni e per una consulenza personalizzata!"
     ]
 
 
-
 ];
+

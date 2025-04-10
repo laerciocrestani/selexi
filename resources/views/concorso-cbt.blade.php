@@ -27,12 +27,12 @@
 <section class="content background-green mb-0">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-6">
                 <div class="heading-text heading-section">
-                    <h2 class="text-white">Come funziona</h2>
+                    <h2 class="text-white">{{ __('concorso-cbt.come-funziona.title') }}</h2>
                 </div>
             </div>
-            <div class="col-lg-9">
+            <div class="col-lg-6">
                 <p class="text-white">{!! __('concorso-cbt.come-funziona.p') !!}</p>
             </div>
         </div>
@@ -143,6 +143,21 @@
     </div>
 
 </section>
+
+
+<section class="content background-green mb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="heading-text heading-section">
+                    <h2 class="text-white">{!! __('concorso-cbt.cta.title') !!}</h2>
+                    <p class="text-white">{!! __('concorso-cbt.cta.p') !!}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 @include('partials.dicono')
 
