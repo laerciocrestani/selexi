@@ -41,6 +41,7 @@ Route::get('/concorso', function () {return view('concorso');})->name('concorso'
 Route::get('/concorso-cbt', function () {return view('concorso-cbt');})->name('concorso-cbt');
 
 
+
 Route::get('/news/{slug}', function ($slug) {
     return view('post', ['slug' => $slug]);
 });
