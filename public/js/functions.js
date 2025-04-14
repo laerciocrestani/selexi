@@ -521,21 +521,21 @@ var INSPIRO = {},
                         $body.hasClass("b--responsive") ||
                         $mainMenu.hasClass("menu-onclick")
                     ) {
-                        $(this).parent("li").toggleClass("hover-active");
+                       $(this).parent("li").toggleClass("hover-active");
                     }
                     e.stopPropagation();
                     e.preventDefault();
                 });
 
                 $body.on("click", function(e) {
-                    $mainMenu.find(".hover-active").removeClass("hover-active");
+                    //$mainMenu.find(".hover-active").removeClass("hover-active");
                 });
 
                 $(window).on("resize", function() {
                     if ($body.hasClass("mainMenu-open")) {
                         if (Settings.menuIsOpen) {
                             $mainMenuTriggerBtn.trigger("click");
-                            $mainMenu.find(".hover-active").removeClass("hover-active");
+                           $mainMenu.find(".hover-active").removeClass("hover-active");
                         }
                     }
                 });

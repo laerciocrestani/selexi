@@ -39,7 +39,8 @@ Route::get('/assessment', function () {return view('assessment');})->name('asses
 
 Route::get('/concorso', function () {return view('concorso');})->name('concorso');
 Route::get('/concorso-cbt', function () {return view('concorso-cbt');})->name('concorso-cbt');
-
+Route::get('/concorso-pbt', function () {return view('concorso-pbt');})->name('concorso-pbt');
+Route::get('/concorso-tbt', function () {return view('concorso-tbt');})->name('concorso-tbt');
 
 
 Route::get('/news/{slug}', function ($slug) {

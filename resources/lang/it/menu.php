@@ -17,11 +17,11 @@ return [
                         ],
                         [
                             'label' => 'Paper Based Test (PBT)', 
-                            'url' => 'concorso-cbt'
+                            'url' => 'concorso-pbt'
                         ],
                         [
                             'label' => 'Tablet Based Test (TBT)', 
-                            'url' => 'concorso-cbt'
+                            'url' => 'concorso-tbt'
                         ],
                     ]
                 ],

@@ -11,8 +11,8 @@
     <!-- Document title -->
     <title>Selexi - Test your future</title>
     <!-- Stylesheets & Fonts -->
-    <link href="/css/plugins.css?time=<?php echo time()?>" rel="stylesheet">
-    <link href="/css/style.css?time=<?php echo time()?>" rel="stylesheet">
+    <link href="/css/plugins.css?time=<?php echo time() ?>" rel="stylesheet">
+    <link href="/css/style.css?time=<?php echo time() ?>" rel="stylesheet">
 </head>
 
 <body>
@@ -39,7 +39,7 @@
                     <!-- end: search -->
                     <!--Header Extras-->
                     <div class="header-extras">
-                        
+
                         <ul>
                             <li>
                                 <a id="btn-search" href="#"> <i class="icon-search"></i></a>
@@ -51,7 +51,7 @@
                                         <li><a href="{{ url('lang/it') }}">Italiano</a></li>
                                         @endif
                                         @if(app()->getLocale() !== 'es')
-                                            <li><a href="{{ url('lang/es') }}">Spanish</a></li>
+                                        <li><a href="{{ url('lang/es') }}">Spanish</a></li>
                                         @endif
                                         @if(app()->getLocale() !== 'en')
                                         <li><a href="{{ url('lang/en') }}">English</a></li>
@@ -69,8 +69,8 @@
                     <div id="mainMenu">
                         <div class="container">
                             <nav>
-                            <ul>
-                                @include('partials.menu', ['items' => __('menu.items')])
+                                <ul>
+                                    @include('partials.menu', ['items' => __('menu.items'),'level' => 0])
                                 </ul>
                             </nav>
                         </div>
@@ -175,8 +175,8 @@
                 <div class="row d-flex align-items-center">
                     <div class="col-lg-6">
                         <div class="widget">
-                            <div class="widget-title"><img src="/images/black.png" alt=""> <span style="padding-left:20px">&copy; {{date("Y")}} -  SELEXI Srl</span></div>
-                            
+                            <div class="widget-title"><img src="/images/black.png" alt=""> <span style="padding-left:20px">&copy; {{date("Y")}} - SELEXI Srl</span></div>
+
                         </div>
                     </div>
                 </div>
@@ -186,8 +186,8 @@
                             <div class="widget-title">Sede legale e operativa</div>
                             <ul class="list">
                                 <li>Via Gerolamo Vida, 11 - 20127 Milano<br>P.IVA 12852900153<br>Tel. 02 58 32 23 02<br>Fax 02 58 43 48 33</li>
-                                </ul>
-                                <div class="mt-4"><img src="/images/spada.png" height="20"> <small>Agenzia Social Milano</small></div>
+                            </ul>
+                            <div class="mt-4"><img src="/images/spada.png" height="20"> <small>Agenzia Social Milano</small></div>
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -238,6 +238,19 @@
 
     <!--Template functions-->
     <script src="js/functions.js"></script>
+
+    <script>
+        if (window.innerWidth <= 768) {
+            document.querySelectorAll('.dropdown').forEach(function(item) {
+                item.classList.add('open');
+                item.classList.add('hover-active');
+            });
+            document.querySelectorAll('.dropdown-submenu').forEach(function(item) {
+                item.classList.add('open');
+                item.classList.add('hover-active');
+            });
+        }
+    </script>
 
 </body>
 
