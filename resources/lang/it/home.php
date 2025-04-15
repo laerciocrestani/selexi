@@ -6,7 +6,19 @@ return [
         'p' => 'Selexi è il partner ideale per la somministrazione di test per l’ammissione ai Corsi di Laurea a numero programmato e per la gestione di concorsi pubblici. Grazie a un approccio integrato e a soluzioni innovative, supportiamo i più prestigiosi Atenei italiani e la Pubblica Amministrazione in ogni fase delle procedure concorsuali. Con Selexi, ogni progetto viene gestito con competenza, affidabilità e personalizzazione sulla base delle specifiche esigenze dei nostri clienti.',
     ],
     'concorsi' => [
-        'title' => 'I nostri concorsi'
+        'title' => 'I nostri concorsi',
+        'item1' => [
+            'title' => 'Computer Based Test (CBT)',
+            'description' => "Scoprite come il servizio Computer Based Test Home può trasformare il tuo processo di selezione."
+        ],
+        'item2' => [
+            'title' => 'Paper Based Test (PBT)',
+            'description' => "Scoprite come il servizio Paper Based Test Home di Selexi può trasformare il tuo processo di selezione."
+        ],
+        'item3' => [
+            'title' => 'Tablet Based Test (TBT)',
+            'description' => ""
+        ],
     ],
     'servizi' => [
         'title' => 'Servizi',

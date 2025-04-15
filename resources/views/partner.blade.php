@@ -52,7 +52,7 @@
             <div class="col-lg-4">
                 <div class="palco d-flex justify-content-center align-items-center">
 
-                    <img alt="" class="rounded img-fluid" src="images/partner/hirintio.png">
+                    <img alt="" class="rounded img-fluid" src="images/partner/2hirintio.png">
                 </div>
             </div>
             <div class="col-lg-8 mt-lg-0">

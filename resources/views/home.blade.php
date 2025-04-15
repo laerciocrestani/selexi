@@ -29,16 +29,16 @@
             <div class="post-item">
                 <div class="post-item-wrap">
                     <div class="post-image p-4">
-                        <a href="#">
+                        <a href="/concorso-cbt">
                             <img alt="" class="rounded" src="images/concorsi/1.png">
                         </a>
                     </div>
                     <div class="post-item-description">
-                        <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
-                        <h2><a href="#">Computer Based Test (CBT)</a></h2>
-                        <p>Scoprite come il servizio Computer Based Test Home può trasformare il tuo processo di selezione.</p>
+                    <!-- <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span> -->
+                        <h2><a href="/concorso-cbt">{!! __('home.concorsi.item1.title') !!}</a></h2>
+                        <p>{!! __('home.concorsi.item1.description') !!}</p>
 
-                        <a href="#" class="btn btn-rounded pull-right" class="item-link">{{ __('btn.leggi-larticolo')}}</a>
+                        <a href="/concorso-cbt" class="btn btn-rounded pull-right" class="item-link">{{ __('btn.scopri-di-piu')}}</a>
 
                     </div>
                 </div>
@@ -46,16 +46,16 @@
             <div class="post-item">
                 <div class="post-item-wrap">
                     <div class="post-image p-4">
-                        <a href="#">
+                        <a href="/concorso-pbt">
                             <img alt="" class="rounded" src="images/concorsi/2.png">
                         </a>
                     </div>
                     <div class="post-item-description">
-                        <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
-                        <h2><a href="#">Paper Based Test (PBT)</a></h2>
-                        <p>Scoprite come il servizio Paper Based Test Home di Selexi può trasformare il tuo processo di selezione.</p>
+                        <!-- <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span> -->
+                        <h2><a href="/concorso-pbt">{!! __('home.concorsi.item2.title') !!}</a></h2>
+                        <p>{!! __('home.concorsi.item2.description') !!}</p>
 
-                        <a href="#" class="btn btn-rounded pull-right" class="item-link">{{ __('btn.leggi-larticolo')}}</a>
+                        <a href="/concorso-pbt" class="btn btn-rounded pull-right" class="item-link">{{ __('btn.scopri-di-piu')}}</a>
 
                     </div>
                 </div>
@@ -63,26 +63,25 @@
             <div class="post-item">
                 <div class="post-item-wrap">
                     <div class="post-image p-4">
-                        <a href="#">
+                        <a href="/concorso-tbt">
                             <img alt="" class="rounded" src="images/concorsi/3.png">
                         </a>
                     </div>
                     <div class="post-item-description">
-                        <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
-                        <h2><a href="#">Tablet Based Test (TBT)</a></h2>
-                        <p>Scopri come il servizio Tablet Based Test di Selexi può migliorare l’efficienza e la sicurezza delle tue selezioni.</p>
+                        <!-- <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span> -->
+                        <h2><a href="/concorso-tbt">{!! __('home.concorsi.item3.title') !!}</a></h2>
+                        <p>{!! __('home.concorsi.item3.description') !!}</p>
 
-                        <a href="#" class="btn btn-rounded pull-right" class="item-link">{{ __('btn.leggi-larticolo')}}</a>
+                        <a href="/concorso-tbt" class="btn btn-rounded pull-right" class="item-link">{{ __('btn.scopri-di-piu')}}</a>
 
                     </div>
                 </div>
             </div>
 
         </div>
-        <div class="text-center">
+        <!-- <div class="text-center">
             <a href="#" class="btn btn-success-green btn-rounded" class="item-link">{{ __('btn.guarda-tutti')}}</a>
-
-        </div>
+        </div> -->
     </div>
 </section>
 <!-- end: BLOG -->
@@ -105,27 +104,27 @@
         </div>
         <div class="row servizi mt-6">
             <div class="col-lg-4">
-                <div class="text-center">
+                <div class="text-center h-100 d-flex flex-column">
                     <div class="icon"><img src="/images/assessment.png" alt="" srcset=""></div>
                     <h4>{!! __('home.servizi.title_a') !!}</h4>
                     <p class="p-5">{!! __('home.servizi.p_a') !!}</p>
-                    <a href="#" class="btn btn-success btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
+                    <a href="/assessment" class="btn btn-success btn-rounded mt-auto mx-auto" class="item-link">{{ __('btn.scopri-di-piu')}}</a>
                 </div>
             </div>
             <div class="col-lg-4 mt-4 mt-lg-0">
-                <div class="text-center">
+                <div class="text-center h-100 d-flex flex-column">
                     <div class="icon"><img src="/images/examonline.png" alt="" srcset=""></div>
                     <h4>{!! __('home.servizi.title_b') !!}</h4>
                     <p class="p-5">{!! __('home.servizi.p_b') !!}</p>
-                    <a href="#" class="btn btn-success btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
+                    <a href="https://examonline.selexi.it" class="btn btn-success btn-rounded mt-auto mx-auto" class="item-link">{{ __('btn.scopri-di-piu')}}</a>
                 </div>
             </div>
             <div class="col-lg-4 mt-4 mt-lg-0">
-                <div class="text-center">
+                <div class="text-center h-100 d-flex flex-column">
                     <div class="icon"><img src="/images/test-center.png" alt="" srcset=""></div>
                     <h4>{!! __('home.servizi.title_c') !!}</h4>
                     <p class="p-5">{!! __('home.servizi.p_c') !!}</p>
-                    <a href="#" class="btn btn-success btn-rounded mt-3" class="item-link">{{ __('btn.guarda-tutti')}}</a>
+                    <a href="#" class="btn btn-success btn-rounded mt-auto mx-auto" class="item-link">{{ __('btn.scopri-di-piu')}}</a>
                 </div>
             </div>
 
